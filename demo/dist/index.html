@@ -1,0 +1,9 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>demo</title><link href=./static/css/app.e10d31f9a7e4a244cf984d1f4df4ee8f.css rel=stylesheet></head><body><div id=app></div><script>// //设置html的字体大小，使用rem来控制自适应，更好的计算宽高
+      document.documentElement.style.fontSize = document.documentElement.clientWidth /1920 *100 + 'px';
+      //vue机制，只有onload时执行onresize方法，注意onload和ready.只有load之后（元素都渲染到页面中），缩放时才能改变元素大小
+      window.onload =function(){
+        document.documentElement.style.fontSize = document.documentElement.clientWidth /1920 *100 + 'px';
+        window.onresize = function(){
+          document.documentElement.style.fontSize = document.documentElement.clientWidth /1920 *100 + 'px';
+        }
+      }</script><script type=text/javascript src=./static/js/manifest.3ad1d5771e9b13dbdad2.js></script><script type=text/javascript src=./static/js/vendor.978bd062eb99f438509e.js></script><script type=text/javascript src=./static/js/app.8c01930e8d433c9dc04a.js></script></body></html>

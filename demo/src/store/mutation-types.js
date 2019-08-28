@@ -1,0 +1,1 @@
+export const CHANGE_XY = "CHANGE_XY";   // 定义的获取坐标的事务状态常量
